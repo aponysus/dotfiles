@@ -78,8 +78,8 @@ nnoremap <leader>s :mksession<CR>
 
 " Backups {{{
 set backup
-set backupdir=~/Vim/_vim-tmp
-set directory=~/Vim/_vim-tmp
+set backupdir=~/.vim/_vim-tmp
+set directory=~/.vim/_vim-tmp
 set writebackup
 " }}}
 

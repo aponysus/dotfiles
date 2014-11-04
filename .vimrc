@@ -4,7 +4,7 @@ call pathogen#infect()
 
 " Colors {{{
 syntax enable	        " enable syntax processing
-colorscheme badwolf	    " colors 
+colorscheme DevC++	    " colors 
 " }}}
 
 " Spaces and Tabs {{{
@@ -78,8 +78,8 @@ nnoremap <leader>s :mksession<CR>
 
 " Backups {{{
 set backup
-set backupdir=~/.vim/_vim-tmp
-set directory=~/.vim/_vim-tmp
+set backupdir=~/.vim/.tmp
+set directory=~/.vim/.tmp
 set writebackup
 " }}}
 

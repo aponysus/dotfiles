@@ -1,8 +1,3 @@
-alias godva="cd e:/school/cse6242/"
-alias sqlite="e:/school/cse6242/sqlite3.exe"
-alias vim="~/Vim/vim74/vim.exe"
-alias gvim="~/Vim/vim74/gvim.exe"
-alias gobundle="cd ~/Vim/vimfiles/bundle/"
 
 # ---------------------------------------------------------
 # -- 1.2) Set up bash prompt and ~/.bash_eternal_history --

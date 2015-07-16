@@ -3,8 +3,7 @@
 # -- 1.2) Set up bash prompt and ~/.bash_eternal_history --
 # ---------------------------------------------------------
 # Set various bash parameters based on whether the shell is 'interactive'
-# or not. An interactive shell is one you type commands into, a
-# non-interactive one is the bash environment used in scripts.
+# or not. 
 if [ "$PS1" ]; then
 if [ -x /usr/bin/tput ]; then
 if [ "x`tput kbs`" != "x" ]; then # We can't do this with "dumb" terminal
@@ -41,10 +40,6 @@ esac
 # and keeps track if you have multiple screens and ssh sessions into the
 # same machine. It is adapted from:
 # http://www.debian-administration.org/articles/543.
-#
-# The way it works is that after each command is executed and
-# before a prompt is displayed, a line with the last command (and
-# some metadata) is appended to ~/.bash_eternal_history.
 #
 # This file is a tab-delimited, timestamped file, with the following
 # columns:
